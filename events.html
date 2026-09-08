@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Upcoming Events — Handcrafters &amp; Artisans Alliance</title>
+<meta name="description" content="One calendar for every HAA market, pop-up, and member meeting — including Waikiki Artfest.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="40" height="40" rx="9" fill="#3D5A46"/>
+        <path d="M5 25 L13 12 L20 25 L27 12 L35 25" stroke="#F3ECDD" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="20" cy="31" r="2.1" fill="#C8892A"/>
+      </svg>
+      <span class="brand-text">Handcrafters &amp; Artisans Alliance<small>Local artisans, since 1992</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html" aria-current="page">Events</a></li>
+      <li><a href="apply.html">Apply</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="directory.html">Directory</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn btn-primary" href="apply.html">Apply to sell</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section style="padding-bottom:0">
+    <div class="container">
+      <p class="hero-eyebrow">Calendar</p>
+      <h1>Every HAA event, in one place</h1>
+      <p class="lede">Markets, pop-ups, and member meetings — filter by type, or add the whole calendar to your own via the buttons below.</p>
+      <div class="hero-ctas" style="margin-bottom:0">
+        <a class="btn btn-ghost" href="#" onclick="return false;">Add to Google Calendar</a>
+        <a class="btn btn-ghost" href="#" onclick="return false;">Subscribe (iCal)</a>
+        <a class="btn btn-ghost" href="https://eventbrite.com" target="_blank" rel="noopener">See tickets on Eventbrite</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="filter-row" data-filter-group data-filter-target=".timeline-item">
+        <button class="chip is-active" data-filter="all">All events</button>
+        <button class="chip" data-filter="market">Markets</button>
+        <button class="chip" data-filter="pop-up">Pop-ups</button>
+        <button class="chip" data-filter="meeting">Member meetings</button>
+      </div>
+
+      <div class="timeline">
+        <h2 class="timeline-month">November 2026</h2>
+        <div class="timeline-item" data-category="market">
+          <div class="day">8<span>SAT</span></div>
+          <div class="details">
+            <span class="tag tag-market">Market</span>
+            <h3>Waikiki Artfest</h3>
+            <p class="meta">Kapi‘olani Park Bandstand · 9am–4pm · Free to attend</p>
+            <p>Our flagship juried market. 60+ HAA members selling original, Hawai‘i-made work.</p>
+          </div>
+        </div>
+
+        <h2 class="timeline-month">December 2026</h2>
+        <div class="timeline-item" data-category="meeting">
+          <div class="day">3<span>THU</span></div>
+          <div class="details">
+            <span class="tag tag-meeting">Member meeting</span>
+            <h3>Quarterly member meeting</h3>
+            <p class="meta">Online via Zoom · 6:30–7:30pm · Members only</p>
+            <p>Booth policy updates, upcoming market planning, and an open floor for member questions.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-category="pop-up">
+          <div class="day">13<span>SUN</span></div>
+          <div class="details">
+            <span class="tag tag-pop-up">Pop-up</span>
+            <h3>Holiday pop-up market</h3>
+            <p class="meta">Ala Moana Beach Park · 10am–3pm</p>
+            <p>A smaller, casual market timed for holiday shopping.</p>
+          </div>
+        </div>
+
+        <h2 class="timeline-month">January 2027</h2>
+        <div class="timeline-item" data-category="pop-up">
+          <div class="day">17<span>SUN</span></div>
+          <div class="details">
+            <span class="tag tag-pop-up">Pop-up</span>
+            <h3>Kaka‘ako pop-up market</h3>
+            <p class="meta">Kaka‘ako · 10am–3pm</p>
+            <p>A relaxed neighborhood market for members between our major events.</p>
+          </div>
+        </div>
+
+        <h2 class="timeline-month">February 2027</h2>
+        <div class="timeline-item" data-category="market">
+          <div class="day">21<span>SUN</span></div>
+          <div class="details">
+            <span class="tag tag-market">Market</span>
+            <h3>Waikiki Artfest</h3>
+            <p class="meta">Kapi‘olani Park Bandstand · 9am–4pm · Free to attend</p>
+            <p>Our second Artfest of the season — applications open six weeks prior.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="on-taro">
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:20px;">
+      <div>
+        <h2 style="margin-bottom:.2em">Want a booth at the next one?</h2>
+        <p style="margin:0">Applications close roughly six weeks before each market.</p>
+      </div>
+      <a class="btn btn-ghost-light" href="apply.html">Apply to sell</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand-text" style="color:var(--paper)">Handcrafters &amp; Artisans Alliance</div>
+        <p>A local nonprofit connecting Hawai‘i-made artists and crafters with their community since 1992.</p>
+        <div class="social-row">
+          <a href="https://www.facebook.com/HAAHawaii" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#F3ECDD" stroke-width="1.6"><path d="M15 8h2V5h-2a3 3 0 0 0-3 3v2H9v3h3v7h3v-7h2.2l.8-3H15V8Z"/></svg>
+          </a>
+          <a href="https://instagram.com/waikikiartfest" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#F3ECDD" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17" cy="7" r="1"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="events.html">Upcoming events</a></li>
+          <li><a href="gallery.html">Past events</a></li>
+          <li><a href="directory.html">Artist directory</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>For artists</h4>
+        <ul>
+          <li><a href="apply.html">Apply to sell</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Membership questions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@haahawaii.org">hello@haahawaii.org</a></li>
+          <li>O‘ahu, Hawai‘i</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Handcrafters &amp; Artisans Alliance. All items sold are handmade in Hawai‘i.</span>
+      <span>Design preview — placeholder content</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

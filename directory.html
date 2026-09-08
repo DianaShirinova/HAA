@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Artist Directory — Handcrafters &amp; Artisans Alliance</title>
+<meta name="description" content="Browse HAA member artists and vendors by craft — painting, ceramics, fiber, woodwork, jewelry, and more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-row">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="40" height="40" rx="9" fill="#3D5A46"/>
+        <path d="M5 25 L13 12 L20 25 L27 12 L35 25" stroke="#F3ECDD" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="20" cy="31" r="2.1" fill="#C8892A"/>
+      </svg>
+      <span class="brand-text">Handcrafters &amp; Artisans Alliance<small>Local artisans, since 1992</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="apply.html">Apply</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="directory.html" aria-current="page">Directory</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a class="btn btn-primary" href="apply.html">Apply to sell</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section style="padding-bottom:0">
+    <div class="container">
+      <p class="hero-eyebrow">Directory</p>
+      <h1>Meet our artists &amp; vendors</h1>
+      <p class="lede">Every member listed here has been juried into HAA — their work is designed and made by hand, in Hawai‘i.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="filter-row" data-filter-group data-filter-target=".vendor-card">
+        <button class="chip is-active" data-filter="all">All crafts</button>
+        <button class="chip" data-filter="painting">Painting</button>
+        <button class="chip" data-filter="ceramics">Ceramics</button>
+        <button class="chip" data-filter="fiber">Fiber &amp; textile</button>
+        <button class="chip" data-filter="wood">Woodwork</button>
+        <button class="chip" data-filter="jewelry">Jewelry</button>
+      </div>
+
+      <div class="directory-grid">
+        <div class="vendor-card" data-category="painting">
+          <div class="avatar">DS</div>
+          <h3>Diana Shirinova</h3>
+          <p class="craft">Painting</p>
+          <p>Tropical floral and figurative acrylic paintings, printed and sold as fine-art giclée.</p>
+          <div class="links"><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></div>
+        </div>
+
+        <div class="vendor-card" data-category="ceramics">
+          <div class="avatar">KL</div>
+          <h3>Kai Lindström</h3>
+          <p class="craft">Ceramics</p>
+          <p>Hand-thrown stoneware, glazed with tide-pool colors from the North Shore.</p>
+          <div class="links"><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></div>
+        </div>
+
+        <div class="vendor-card" data-category="fiber">
+          <div class="avatar">MA</div>
+          <h3>Malia Akana</h3>
+          <p class="craft">Fiber &amp; textile</p>
+          <p>Naturally dyed woven wall hangings and lauhala accessories.</p>
+          <div class="links"><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></div>
+        </div>
+
+        <div class="vendor-card" data-category="wood">
+          <div class="avatar">TP</div>
+          <h3>Tomas Pukui</h3>
+          <p class="craft">Woodwork</p>
+          <p>Koa and monkeypod bowls, turned and finished by hand.</p>
+          <div class="links"><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></div>
+        </div>
+
+        <div class="vendor-card" data-category="jewelry">
+          <div class="avatar">NC</div>
+          <h3>Nalani Choy</h3>
+          <p class="craft">Jewelry</p>
+          <p>Sterling silver and Ni‘ihau-shell inspired pieces, cast and set by hand.</p>
+          <div class="links"><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></div>
+        </div>
+
+        <div class="vendor-card" data-category="painting">
+          <div class="avatar">RF</div>
+          <h3>Rae Fontaine</h3>
+          <p class="craft">Painting</p>
+          <p>Plein-air watercolors of O‘ahu's coastline, framed in reclaimed wood.</p>
+          <div class="links"><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pattern-kapa">
+    <div class="container">
+      <h2>Is your work missing from this list?</h2>
+      <p class="lede" style="color:var(--ink-soft)">Apply for HAA membership and get listed once you're juried in.</p>
+      <a class="btn btn-primary" href="apply.html">Apply to sell</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand-text" style="color:var(--paper)">Handcrafters &amp; Artisans Alliance</div>
+        <p>A local nonprofit connecting Hawai‘i-made artists and crafters with their community since 1992.</p>
+        <div class="social-row">
+          <a href="https://www.facebook.com/HAAHawaii" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#F3ECDD" stroke-width="1.6"><path d="M15 8h2V5h-2a3 3 0 0 0-3 3v2H9v3h3v7h3v-7h2.2l.8-3H15V8Z"/></svg>
+          </a>
+          <a href="https://instagram.com/waikikiartfest" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#F3ECDD" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="3.6"/><circle cx="17" cy="7" r="1"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="events.html">Upcoming events</a></li>
+          <li><a href="gallery.html">Past events</a></li>
+          <li><a href="directory.html">Artist directory</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>For artists</h4>
+        <ul>
+          <li><a href="apply.html">Apply to sell</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Membership questions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:hello@haahawaii.org">hello@haahawaii.org</a></li>
+          <li>O‘ahu, Hawai‘i</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Handcrafters &amp; Artisans Alliance. All items sold are handmade in Hawai‘i.</span>
+      <span>Design preview — placeholder content</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
