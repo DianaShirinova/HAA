@@ -363,8 +363,8 @@ section{ padding: 64px 0; }
   font-weight: 600;
   color: var(--ochre-deep);
 }
-.step h3{ margin-bottom: .3em; font-size: 1.08rem; }
-.step p{ margin: 0; color: var(--ink-soft); }
+.step h3{ grid-column: 2; margin-bottom: .3em; font-size: 1.08rem; }
+.step p{ grid-column: 2; margin: 0; color: var(--ink-soft); }
 
 /* ---------- tables (fees / deadlines) ---------- */
 .table-wrap{ overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius-md); }
